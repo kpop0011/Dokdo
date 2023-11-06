@@ -1,0 +1,294 @@
+@media all and (min-width:1200px) {
+    body{
+        padding-top: 80px;
+    }
+    header{
+        position: relative;
+    }
+    header .mognb{
+        display: none;
+    }
+    header .hWrap{
+        height: 80px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header .hWrap .logo{
+        padding-left: 100px;
+        margin-top: 10px;
+    }
+    header .hWrap .logo img{
+        width: 50px;
+        margin: 0;
+    }
+    header .hWrap .language{
+        border-radius: 15px;
+    }
+    header .hWrap .language .selected{
+        font-size: 16px;
+        padding: 10px 25px;
+    }
+    header .hWrap .language .lanList{
+        font-size: 16px;
+    }
+    header .hWrap .pcgnb{
+        display: block;
+        margin-left: 40px;
+        line-height: 80px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    header .hWrap .pcgnb ul{
+        display: flex;
+    }
+    header .hWrap .pcgnb ul li{
+        width: 250px;
+        text-align: center;
+    }
+    header .hWrap .pcgnb .pcsubGnb{
+        display: none;
+        line-height: 30px;
+        background-color: #fff;
+        height: 150px;
+        border-right: 1px solid #111;
+    }
+    header .hWrap .pcgnb .pcsubGnbLast{
+        border: 0;
+    }
+    header .hWrap .pcgnb .pcsubGnb li{
+        width: 100%;
+        height: 30px;
+    }
+    header .hWrap .pcgnb .pcsubGnb li:hover{
+        color: #888;
+    }
+    header .hWrap .pcgnb .pcsubGnb.active{
+        display: block;
+    }
+    header .hWrap .menu{
+        display: none;
+    }
+    .bn{
+        background-image: url(../images/wapBanner.png);
+        height: 800px;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .bn img{
+        display: none;
+    }
+    section h2{
+        font-size: 36px;
+        text-align: left;
+        padding-left: 20px;
+    }
+    section button{
+        width: 200px;
+        height: 50px;
+        font-size: 16px;
+    }
+    .reportWrap{
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .report .item{
+        display: flex;
+        justify-content: center;
+    }
+    .report .itemRevers{
+        flex-direction: row-reverse;
+    }
+    .report .item .imgSet{
+        width: 500px;
+        margin: 0;
+    }
+    .report .item .imgSet img{
+        width: 500px;
+    }
+    .report .item .txtSet{
+        width: 500px;
+        height: 500px;
+        margin: 0;
+    }
+    .report .item .txtSet h4{
+        font-size: 24px;
+        margin-top: 160px;
+    }
+    .report .item .txtSet p{
+        font-size: 18px;
+    }
+
+    .base .baseWrap{
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-between;
+        align-content: flex-start;
+        align-items: flex-start;
+    }
+    .base .baseWrap .con{
+        width: 700px;
+        position: sticky;
+        top: 0;
+    }
+    .base .baseWrap .con .imgSet{
+        margin: 0;
+        margin-top: 150px;
+        width: 500px;
+    }
+    .base .baseWrap .con .imgSet img{
+        width: 100%;
+    }
+    .base .baseWrap .con .txtSet{
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+        margin-top: 80px;
+        padding: 0 20px;
+    }
+    .base .baseWrap .itemCon{
+        width: 500px;
+        margin-top: 130px;
+    }
+    .base .baseWrap .itemCon .item{
+        width: 250px;
+        margin: 0;
+        padding: 0 20px;
+        margin-top: 20px;
+        box-sizing: unset;
+    }
+    .base .baseWrap .itemCon .item .imgSet{
+        margin: 0;
+        padding: 0;
+    }
+    .base .baseWrap .itemCon .item .imgSet img{
+        width: 250px;
+        margin: 0;
+        padding: 0;
+    }
+    .base .baseWrap .itemCon .item .txtSet{
+        width: 250px;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+    }
+    .base .baseWrap .itemCon .itemLeft{
+        margin-left: auto;
+    }
+    .base .baseWrap .itemCon .itemLeft .txtSet{
+        text-align: right;
+    }
+    .base .baseWrap .itemCon .pcItem{
+        display: block;
+    }
+    .base .pcButton{
+        display: block;
+        margin: 0;
+        margin-top: 80px;
+        margin-left: 20px;
+    }
+    .base .moButton{
+        display: none;
+    }
+
+    .gallery h2{
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .gallery .galleryWrap{
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        margin-top: 100px;
+        justify-content: center;
+    }
+    .gallery .galleryWrap .mainVideo{
+        display: block;
+        width: 590px;
+        height: 600px;
+        margin: 0 20px;
+    }
+    .gallery .galleryWrap .itemCon{
+        width: 590px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .gallery .galleryWrap .itemCon .item{
+        margin: 0;
+        padding: 0;
+        width: 280px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    .gallery .galleryWrap .itemCon .item:first-child{
+        width: 580px;
+        margin-top: 0;
+    }
+    .gallery .galleryWrap .itemCon .item:last-child{
+        margin-right: 0;
+    }
+    .gallery .galleryWrap .itemCon .item .thumb img{
+        width: 100%;
+        height: 230px;
+    }
+
+    .story{
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .story .btnSet button{
+        font-size: 16px;
+        height: 65px;
+    }
+    .story .con .item{
+        width: 350px;
+        height: 350px;
+    }
+    .story .con .item .infoName{
+        font-size: 20px;
+    }
+    .story .con .item .infoContent{
+        font-size: 16px;
+    }
+    .story .con .item .infoDate{
+        font-size: 14px;
+    }
+
+    footer .fWrap{
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+    footer .fWrap .fGnb li{
+        font-size: 16px;
+        width: 150px;
+    }
+    footer .fWrap .fItem{
+        position: absolute;
+        top: 0;
+        right: 20px;
+        font-size: 16px;
+        width: 160px;
+    }
+
+    .top{
+        width: 50px;
+        height: 50px;
+        bottom: 50px;
+        right: 50px;
+    }
+    .top img{
+        width: 12px;
+        margin-top: 5px;
+    }
+    .top p{
+        margin: 0;
+        font-size: 12px;
+        margin-top: 2px;
+    }
+}
